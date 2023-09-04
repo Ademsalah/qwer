@@ -14,7 +14,8 @@ body{
   padding: 10px 0px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  
+  margin-left: -6px;
+    margin-right: -6px;
   left: 0;
 }
 .logo-docplanner{
@@ -166,10 +167,11 @@ color:#00b39b ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 180px 130px;
+  margin: 400px 400px;
+  margin-top: 20px;
 }
 .project {
-  margin-bottom: 100px;
+  margin-bottom:50px;
 }
 .project p {
   line-height: 30px;
@@ -186,5 +188,123 @@ color:#00b39b ;
 .box{
   border-radius: 7px;
   box-shadow:  rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  padding: -1px 250px;
+ 
+  padding: 10px 10px;
+}
+.part2{
+  text-align: center;
+}
+.laptop {
+  color: #00b39b;
+  margin: 50px;
+  padding: 10px 400px;
+}
+.dropbtn{
+   padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none ;
+
+  
+}
+
+.dropdown{
+ margin-top: -8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.dropdown:hover .dropbtn:hover {
+  color: #00b39b;
+}
+.dropdown .dropbtn {
+  color: #ababab;
+  background-color: #ffffff;
+}
+footer h2{
+  text-align: center;
+  color: black;
+}
+.part-3{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+dl, menu, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0,0%,67%,.7);
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+}
+.brands__logos .clinicloud img, .brands__logos .feegow img, .brands__logos .gipo img, .brands__logos .jameda img, .brands__logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.brands__logos .clinicloud:hover img, .brands__logos .feegow:hover img, .brands__logos .gipo:hover img, .brands__logos .jameda:hover img, .brands__logos .tuotempo:hover img {
+    filter: none;
+    opacity: 1;
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
 }
