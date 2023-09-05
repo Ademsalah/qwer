@@ -12,7 +12,7 @@ body{
   top: 0;
   height: 70px;
   padding: 10px 0px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   margin-left: -6px;
     margin-right: -6px;
@@ -153,8 +153,7 @@ h1 {
   margin-top: 30px;
 }
 .margin-bottom {
-  transform: translateY(-30px);
-  margin-top: 20px;
+  margin-top: -3px;
 }
 .left h2 {
   
@@ -249,12 +248,11 @@ footer h2{
 }
 .part-3{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-    justify-content: space-between;
-    font-size: 0;
-    list-style: none;
-    width: 67%;
+  margin-left: 350px;
+padding: 20px;
+}
+.part-3 h2{
+  margin-left: -78px;
 }
 dl, menu, ol, ul {
     margin: 0;
@@ -268,17 +266,19 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+    margin-right: -210px;
+
 }
 .brands__logos a path {
     transition: all .2s ease 0s;
     fill: hsla(0,0%,67%,.7);
 }
 .brands__logos li {
-    font-size: 1rem;
-    display: inline-block;
-    margin-top: 0;
-    padding: 5px 0 5px 5px;
-    width: 25%;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 0;
+  padding: 6px 0 10px 30px;
+  width: 25%;
 }
 .brands__logos .clinicloud img, .brands__logos .feegow img, .brands__logos .gipo img, .brands__logos .jameda img, .brands__logos .tuotempo img {
     transition: all .2s ease 0s;
@@ -308,3 +308,4 @@ img {
     padding: 5px 0 5px 5px;
     width: 25%;
 }
+
